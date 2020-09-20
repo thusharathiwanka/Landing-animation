@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Heebo", sans-serif;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul li a {
+  margin-left: 10rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("./hero.jpg");
+  background-size: cover;
+  padding: 0 5rem;
+}
+
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+}
