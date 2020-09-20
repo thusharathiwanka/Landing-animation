@@ -76,6 +76,16 @@ nav ul li a {
   font-size: 3rem;
 }
 
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
 #logo {
   font-family: "Lobster", cursive;
   font-weight: 400;
