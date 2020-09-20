@@ -84,6 +84,7 @@ nav ul li a {
 .hide span {
   transform: translateY(100%);
   display: inline-block;
+  font-weight: 200;
 }
 
 #logo {
